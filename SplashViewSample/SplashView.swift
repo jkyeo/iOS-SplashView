@@ -50,7 +50,7 @@ class SplashView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // call this method at least in viewDidAppear func  
+    // call this method at least in viewDidAppear func
     class func showSplashView(duration: Int = 6,
                               defaultImage: UIImage?,
                               tapSplashImageBlock: ((actionUrl: String?) -> Void)?,
